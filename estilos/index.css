@@ -1,21 +1,31 @@
+/*INICIO ROOT*/
 
+body {
+    margin: 0;
+    box-sizing: content-box;
+    position: relative;
+}
 
+/*FIN ROOT*/
+
+/*INICIO HEADER*/
 .titulos {
     display: flex;
     flex-direction: column;
-    
 }
 
 .header {
+    text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
+    position: sticky;
     box-sizing: content-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 0 2% 0 2%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
-    background-blend-mode: multiply, multiply;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);    background-blend-mode: multiply, multiply;
     height: auto;
+    box-shadow: 2px 2px 10px;
 }
 
 a {
@@ -30,3 +40,84 @@ a:hover {
     width: fit-content;
     background-color: rgba(255, 255, 255, 0.15);
 }
+
+/*FIN HEADER*/
+
+/* Pagina error 404 */
+
+.contenedor-error404 {
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.error404 {
+    max-height: 97vh;
+}
+
+.p-carrito {
+    font-size: 50px;
+}
+
+.a-carrito {
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+/* Fin pagina error 404 */
+
+/* INICIO PRODUCTOS*/
+
+main {
+    height: 100%;
+}
+
+.section-productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    width: 100%;
+    justify-content: center;
+}
+
+.productos {
+    min-width: 200px;
+    max-width: 350px;
+    max-height: 500px;
+    min-height: 200px;
+    margin: 20px 20px;
+    border: 2px transparent solid;
+    box-shadow: 2px 2px 12px;
+    border-radius: 10px 10px;
+    padding: 10px;
+}
+
+/* FIN PRODUCTOS*/
+
+/* INICIO FOOTER */
+
+footer {
+    height: 6vh;
+    text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.iconos-individual {
+    margin: 0 20px;
+}
+
+/* FIN FOOTER */
