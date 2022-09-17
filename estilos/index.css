@@ -74,24 +74,34 @@ a:hover {
 
 /* INICIO PRODUCTOS*/
 
-main {
+/* main {
     height: 100%;
-}
+} */
 
 .section-productos {
+    display: grid;
+    align-self: center;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-auto-flow: dense;
+}
+
+/* .section-productos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     box-sizing: content-box;
     width: 100%;
     justify-content: center;
-}
+} */
 
 .productos {
-    min-width: 200px;
+    box-sizing: content-box;
+    /* min-width: 20rem;
     max-width: 350px;
     max-height: 500px;
-    min-height: 200px;
+    min-height: 200px; */
     margin: 20px 20px;
     border: 2px transparent solid;
     box-shadow: 2px 2px 12px;
@@ -104,6 +114,7 @@ main {
 /* INICIO FOOTER */
 
 footer {
+    box-sizing: content-box;
     height: 6vh;
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
