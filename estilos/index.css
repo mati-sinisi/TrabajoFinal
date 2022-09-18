@@ -14,9 +14,14 @@ body {
     flex-direction: column;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
 .header {
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
-    position: sticky;
     box-sizing: content-box;
     display: flex;
     justify-content: space-between;
@@ -78,6 +83,10 @@ a:hover {
     height: 100%;
 } */
 
+main {
+    min-height: 100vh;
+}
+
 .section-productos {
     display: grid;
     align-self: center;
@@ -136,9 +145,10 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    position: relative;
+    position: sticky;
     width: 100%;
     bottom: 0;
+    margin-top: 30px;
 }
 
 .iconos-individual {
