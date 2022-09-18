@@ -14,10 +14,15 @@ body {
     flex-direction: column;
 }
 
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+}
+
 .header {
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
-    position: sticky;
-    box-sizing: content-box;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,6 +144,7 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
+    margin-top: 30px;
 }
 
 .iconos-individual {
