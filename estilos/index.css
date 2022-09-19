@@ -14,26 +14,15 @@ body {
     flex-direction: column;
 }
 
-<<<<<<< HEAD
-header {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-=======
 header{
     position: sticky;
     top: 0%;
     z-index: 99;
->>>>>>> 97f27f26498da8ecb01e43e98dce100b69f96fce
 }
 
 .header {
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
-<<<<<<< HEAD
-    box-sizing: content-box;
-=======
     box-sizing: border-box;
->>>>>>> 97f27f26498da8ecb01e43e98dce100b69f96fce
     display: flex;
     justify-content: space-between;
     align-items: center;
