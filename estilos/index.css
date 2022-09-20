@@ -41,6 +41,11 @@ a {
     margin: 10px;
 }
 
+h1>a{
+    font-size: 2em;
+    font-weight: bold;
+}
+
 a:hover {
     height: inherit;
     width: fit-content;
