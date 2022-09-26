@@ -1,4 +1,10 @@
 /*INICIO ROOT*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 
 body {
     display: flex;
@@ -8,25 +14,9 @@ body {
     position: relative;
     height: 100%;
     background-color: #280145;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.9'%3E%3Ccircle fill='%23280145' cx='50' cy='0' r='50'/%3E%3Cg fill='%232d0c4d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23321756' cx='50' cy='100' r='50'/%3E%3Cg fill='%2336215e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b2b67' cx='50' cy='200' r='50'/%3E%3Cg fill='%233f3570' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23433f79' cx='50' cy='300' r='50'/%3E%3Cg fill='%23464882' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a528b' cx='50' cy='400' r='50'/%3E%3Cg fill='%234d5c94' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2351669d' cx='50' cy='500' r='50'/%3E%3Cg fill='%235470a7' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23577bb0' cx='50' cy='600' r='50'/%3E%3Cg fill='%235985ba' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%235c90c3' cx='50' cy='700' r='50'/%3E%3Cg fill='%235e9acd' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2360a5d7' cx='50' cy='800' r='50'/%3E%3Cg fill='%2362b0e1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2364bbeb' cx='50' cy='900' r='50'/%3E%3Cg fill='%2366c6f5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2367D1FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-}
-
-
-@media screen and (max-width: 768px) {
-    nav,h3 {
-        display:none;
-    }
-    h1 {
-        font-size: medium;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    nav>ul>a, h1 {
-        font-size: medium;
-    }
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.9'%3E%3Ccircle fill='%23280145' cx='50' cy='0' r='50'/%3E%3Cg fill='%232d0c4d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23321756' cx='50' cy='100' r='50'/%3E%3Cg fill='%2336215e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%233b2b67' cx='50' cy='200' r='50'/%3E%3Cg fill='%233f3570' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23433f79' cx='50' cy='300' r='50'/%3E%3Cg fill='%23464882' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%234a528b' cx='50' cy='400' r='50'/%3E%3Cg fill='%234d5c94' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2351669d' cx='50' cy='500' r='50'/%3E%3Cg fill='%235470a7' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23577bb0' cx='50' cy='600' r='50'/%3E%3Cg fill='%235985ba' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%235c90c3' cx='50' cy='700' r='50'/%3E%3Cg fill='%235e9acd' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2360a5d7' cx='50' cy='800' r='50'/%3E%3Cg fill='%2362b0e1' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2364bbeb' cx='50' cy='900' r='50'/%3E%3Cg fill='%2366c6f5' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2367D1FF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: contain;
 }
 
 
@@ -44,14 +34,15 @@ background-size: contain;
     margin: 10px;
     align-items: center;
 }
-    
+
 header {
     position: sticky;
     top: 0%;
-    z-index: 99;
+    z-index: 999;
 }
 
 .header {
+    z-index: 9999;
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
     box-sizing: border-box;
     display: flex;
@@ -72,7 +63,7 @@ a {
     margin: 10px;
 }
 
-h1>a{
+h1>a {
     font-size: 2em;
     font-weight: bold;
 }
@@ -168,7 +159,7 @@ footer {
     justify-content: space-evenly;
     position: absolute;
     top: 100%;
-    width: 100%;    
+    width: 100%;
     margin-top: 30px;
 }
 
@@ -274,5 +265,73 @@ img {
 iframe {
     width: 100%;
 }
-
+h1 {
+    font-size: medium;
+}
 /* FIN DE MAIN QUIENES SOMOS */
+@media screen and (max-width: 1024px) {
+
+    .closeIcon {
+        display: none;
+      }
+
+    .menuItem {
+        display: block;
+        margin: 2rem 4rem;
+        font-size: 1.8rem;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .menuItem:hover {
+        text-decoration: underline;
+      }
+      
+      .hamburger {
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 1px;
+        background: white;
+        cursor: pointer;
+      }
+      
+      
+      
+      .menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        /* bottom: 0; */
+        z-index: 99;
+        background: rgba(1,1,1,0.5);
+        color: #271919;
+        list-style: none;
+        padding-top: 4rem;
+        font-weight: bold;
+        text-align: right;
+      }
+      
+      .showMenu {
+        transform: translateY(0);
+      }
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    nav {
+        display: flex;
+    }
+
+
+}
