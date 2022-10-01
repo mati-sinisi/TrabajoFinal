@@ -31,13 +31,6 @@ body {
     box-sizing: border-box;
 }
 
-/* .subtitulos {
-    position: relative;
-    display: block;
-    margin: 10px;
-    align-items: center;
-} */
-
 header {
     position: sticky;
     top: 0%;
@@ -45,7 +38,6 @@ header {
 }
 
 .header {
-    /* z-index: 9999; */
     text-shadow: 1px 1px 2px rgba(99, 94, 94, 0.514);
     box-sizing: border-box;
     display: flex;
@@ -166,7 +158,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    /* position: absolute; */
     width: 100%;
     margin-top: auto;
 }
