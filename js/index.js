@@ -34,12 +34,11 @@ const closeIcon= document.querySelector(".closeIcon");
 const menuIcon = document.querySelector(".menuIcon");
 
 function toggleMenu() {
+  menuIcon.style.display = "block";
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
-    menuIcon.style.display = "block";
   } else {
-    menu.classList.add("showMenu");
-    menuIcon.style.display = "block";
+    menu.classList.add("showMenu");  
   }
 }
 
