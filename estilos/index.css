@@ -157,6 +157,43 @@ main {
     height: 80%;
 }
 
+.modal-window{
+    background-color: rgba(0, 0, 0, 0.888);
+    color: rgba(255, 255, 255, 0.91);
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    display: none;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+.modal-window p{
+    display: flex;
+    justify-content: right;
+}
+
+.modal-window a{
+    color: white;
+}
+
+
+
+.center{
+        max-height: 61em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #dbe4ed; /* Border color is optional */
+}
+
+
+.modal-window:target{
+    display: block;
+}
 
 
 /* FIN PRODUCTOS*/
@@ -354,12 +391,18 @@ h1, h2 {
         transform: translateY(0);
     }
 
+    .center>img{
+        min-width: 100%;;
+      }
 }
 
 @media screen and (max-width: 768px) {
     footer span {
         display: none;
     }
+    .center>img{
+        min-width: 100%;;
+      }
 }
 
 @media screen and (min-width: 1024px) {
@@ -372,7 +415,9 @@ h1, h2 {
         display: flex;
     }
 
-
+    .center>img{
+        max-width: 90%;;
+      }
 }
 
 textarea {
