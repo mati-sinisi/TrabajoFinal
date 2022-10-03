@@ -158,6 +158,12 @@ main {
     height: 80%;
 }
 
+.productos>a{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
 .modal-window{
     background-color: rgba(0, 0, 0, 0.888);
     color: rgba(255, 255, 255, 0.91);
