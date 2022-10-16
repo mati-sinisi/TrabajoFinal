@@ -157,7 +157,11 @@ main {
     width: 100%;
     height: 80%;
     vertical-align: middle;
-    border-style: none
+    border-style: none;
+}
+
+.divextra{
+    margin-bottom: -2em;
 }
 
 .modal-link{
@@ -194,13 +198,16 @@ background-color: transparent;
 
 
 .center{
-        max-height: 61em;
+        max-height: 53em;
         display: flex;
         align-items: center;
         justify-content: center;
         border: 3px solid #dbe4ed; /* Border color is optional */
 }
 
+.center>img{
+ width: 70em;
+}
 
 .modal-window:target{
     display: block;
