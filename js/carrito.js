@@ -159,7 +159,7 @@ $('.del-cart').click(function(event) {
 });
 
 // Clear items
-$('.clear-cart').click(function() {
+$('.modal__close').click(function() {
   shoppingCart.clearCart();
   displayCart();
 });
