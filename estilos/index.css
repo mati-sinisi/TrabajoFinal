@@ -251,7 +251,10 @@ footer {
 /* FIN FOOTER */
 
 .mySlides {
-    display: none
+    display: none;
+    background: black;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
