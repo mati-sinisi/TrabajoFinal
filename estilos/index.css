@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 1rem;
 }
 
 html {
@@ -20,7 +21,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: space-between;
     margin: 0;
     position: relative;
     min-height: 100%;
@@ -33,9 +34,12 @@ body {
 
 /*FIN ROOT*/
 
-.mySlides img {
-    width: 100%;
-    height: 70vh;
+.mySlides picture {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    /* height: 70vh; */
 }
 
 /*INICIO HEADER*/
