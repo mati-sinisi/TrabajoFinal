@@ -37,18 +37,17 @@
         </div>
     </header>
     <main>
-        <!-- Slideshow container -->
+        <!-- Slideshow -->
         <br><br><br>
         <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
+            <!-- Imagenes para el slideshow -->
             <div class="mySlides fade">
                 <picture>
                     <source media="(max-width: 1023px)" srcset="img/index/ninio-perro-vertical.jpg">
                     <source media="(min-width: 1024px)" srcset="img/index/perro-montana-horizontal.jpg">
                     <img src="img/index/ninio-perro-vertical.jpg" alt="">
                 </picture>
-                <!-- <img src="img/index/perro-montana-horizontal.jpg"> -->
             </div>
 
             <div class="mySlides fade">
@@ -57,7 +56,6 @@
                     <source media="(min-width: 1024px)" srcset="img/index/perro-horizontal.jpg">
                     <img src="img/index/perro-salchi-vertical.jpg" alt="">
                 </picture>
-                <!-- <img src="img/index/perro-horizontal.jpg"> -->
             </div>
 
             <div class="mySlides fade">
@@ -66,24 +64,24 @@
                     <source media="(min-width: 1024px)" srcset="img/index/gatos-horizontal.jpg">
                     <img src="img/index/perro-vertical.jpg" alt="">
                 </picture>
-                <!-- <img src="img/index/gatos-horizontal.jpg"> -->
             </div>
 
-            <!-- Next and previous buttons -->
+            <!-- Botones anterior y siguiente -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
+        </div><br><br><br>
+        <section class="busqueda">
+            <h3>¡Obtenga imagenes de perros ingresando el nombre de la raza y luego buscar!</h3>
+            <label for="searchApi"></label><br>
+            <input type="text" id="searchApi" placeholder="Raza" style="border-radius: 4px 5px; border: none; text-align:center"><br>
+            <button id="botonsito" class="add-to-cart">Buscar</button><br>
+            <div id="imgapi">
+    
+            </div>
+        </section>
     </main>
-   
-    <section>
-        <h3>Usted puede conseguir productos para todas estas razas, Increible lo lindo que son estos animalitos</h3>
-        <label for="searchApi">Raza de Su perro</label>
-        <input type="text" id="searchApi" placeholder="Ingrese Texto">
-        <button id="botonsito">Buscar</button>
-        <div id="imgapi">
-        
-        </div>
-    </section>
+
+    
 
 
     <footer class="rodapie">
@@ -110,23 +108,19 @@
     </footer>
     <script src="js/menuHamburger.js"></script>
     <script src="js/slideshow.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script> -->
     <script>
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"
+        src = "https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity = "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin = "anonymous"
     </script>
-  
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="/js/ApiDogIdx.js"></script>
-    <!-- <script src="js/HeaderYFooter.js"></script> -->
+    <script src="/js/ApiDogIdx.js"></script>
 </body>
 
 </html>

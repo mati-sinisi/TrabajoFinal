@@ -493,3 +493,22 @@ textarea {
     background-color: #dc3545;
     border-color: #dc3545;
 }
+
+/* INICIO BUSQUEDA INDEX */
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.busqueda div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    left: 0%;
+}
+
+
+/* FIN BUSQUEDA INDEX */
