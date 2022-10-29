@@ -178,7 +178,9 @@ main {
     opacity: 1;
     display: none;
     z-index: 999;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* width: 90%;
+    height: 90%; */
 }
 
 .modal-window p {
@@ -191,15 +193,17 @@ main {
 }
 
 .center {
-    max-height: 53em;
+    /* max-height: 53em; */
     display: flex;
     align-items: center;
     justify-content: center;
     border: 3px solid #dbe4ed;
+    box-sizing: border-box;
 }
 
-.center>img {
-    width: 70em;
+.center img {
+    object-fit: cover;
+    width: 55%;
 }
 
 .modal-window:target {
@@ -426,10 +430,9 @@ h2 {
         transform: translateY(0);
     }
 
-    .center>img {
+    /* .center>img {
         min-width: 100%;
-        ;
-    }
+    } */
 }
 
 @media screen and (max-width: 768px) {
