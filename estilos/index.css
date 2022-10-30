@@ -1,11 +1,11 @@
 /*INICIO ROOT*/
 
-@font-face {
+/* @font-face {
     font-family: 'Stanley';
     src: url('/fonts/Stanley.otf');
     font-style: normal;
     font-weight: normal;
-}
+} */
 
 * {
     margin: 0;
@@ -358,8 +358,7 @@ iframe {
 
 h1,
 h2 {
-    font-family: Stanley;
-    font-size: medium;
+    font-size: 1.5rem;
 }
 
 .itemPrecio {
