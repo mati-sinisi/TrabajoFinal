@@ -1,11 +1,11 @@
 /*INICIO ROOT*/
 
-/* @font-face {
+/*@font-face {
     font-family: 'Stanley';
     src: url('/fonts/Stanley.otf');
     font-style: normal;
     font-weight: normal;
-} */
+}*/
 
 * {
     margin: 0;
@@ -31,6 +31,9 @@ body {
     background-size: contain;
 }
 
+h1, h2 {
+    font-size: large;
+}
 
 /*FIN ROOT*/
 
@@ -86,6 +89,13 @@ h1>a {
 }
 
 /*FIN HEADER*/
+
+/*boton idex*/
+#botonsito:hover{
+   color: red;
+}
+
+
 
 /* Pagina error 404 */
 
