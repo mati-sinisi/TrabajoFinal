@@ -1,9 +1,10 @@
 const searcHandler = ()=>{
-    const input = document.getElementById('searchApi');
-    const divi= $("imgapi");
+    let input = document.getElementById('searchApi');
+    let inputmin= input.value.toLowerCase()
+    const divi= $("#imgapi");
     divi.empty()
-    $.get( `https://dog.ceo/api/breed/${input.value}/images`,(res)=>{
-            if(input.value == res.message[0].split("/")[4]){
+    $.get( `https://dog.ceo/api/breed/${inputmin}/images`,(res)=>{
+            if(inputmin == res.message[0].split("/")[4]){
                const img= document.getElementById('imgapi');
                let newimg = document.createElement("img");
                newimg.setAttribute("src", `${res.message[0]}`)
@@ -13,3 +14,4 @@ const searcHandler = ()=>{
 }
 
 $('#botonsito').click(searcHandler);
+

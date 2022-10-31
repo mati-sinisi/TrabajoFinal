@@ -95,8 +95,16 @@ h1>a {
    color: red;
 }
 
+.busqueda h3{
+    background-color: black;
+    border: 2px black solid;
+    color: rgb(153, 209, 22);
+    border-radius: 1em;
+}
 
-
+.busqueda a{
+    color: lightcoral;
+}
 /* Pagina error 404 */
 
 .contenedor-error404 {
