@@ -1,0 +1,77 @@
+.descripcion p{
+    padding: 32px;
+    font-size: 20px;
+}
+.input-formulario {
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1rem;
+    color: #000000;
+    width: 30%;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #0d0d0d;
+    margin: 8px 10px;
+    box-shadow: 0px 10px 16px -2px rgb(80, 79, 79);
+}
+.textarea-formulario {
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1rem;
+    height: 150px;
+    color: #000000;
+    border-radius: 4px;
+    border: 1px solid #0d0d0d;
+    margin: 8px 10px;
+    box-shadow: 0px 10px 16px -2px rgb(80, 79, 79);
+}
+.btEnviar{
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #D8DFE8;
+    width: 328px;
+    height: 44px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin: 8px 10px;
+    padding: 8px;
+    box-shadow: 0px 10px 16px -2px rgb(80, 79, 79);
+    transition: .5s;
+}
+.btEnviar:hover{
+    background: #0A3871;
+    color: white;
+}
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.space{
+    gap: 16px;
+    padding: 1rem 2rem;
+}
+
+@media screen and (max-width:780px){
+    .div-formulario-contacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .input-formulario, .textarea-formulario {
+
+        width: 80%;
+
+    }
+    .btEnviar{
+        width: 80%;
+    }
+
+}
+
